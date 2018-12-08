@@ -1,0 +1,25 @@
+{
+  "name": "never-give-up",
+  "version": "0.1.0",
+  "description": "A module which force async functions to return value, by repeating them infinite number of times, ignoring undefined values and exceptions. Could be useful while using crappy systems, but in fact **you shouldn't use this package**.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && jest"
+  },
+  "author": "Rafał Rudol <rrrrudol@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrudol/never-give-up.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rrudol/never-give-up/issues"
+  },
+  "homepage": "https://github.com/rrudol/never-give-up#readme",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "typescript": "^3.2.2"
+  }
+}
