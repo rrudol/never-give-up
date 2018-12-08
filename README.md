@@ -1,4 +1,4 @@
-# never-give-up
+# never-give-up [![npm version](https://badge.fury.io/js/never-give-up.svg)](https://badge.fury.io/js/never-give-up) [![Dependency Status](https://david-dm.org/rrudol/never-give-up.svg)](https://david-dm.org/rrudol/never-give-up) [![devDependency Status](https://david-dm.org/rrudol/never-give-up/dev-status.svg)](https://david-dm.org/rrudol/never-give-up#info=devDependencies) [![Build Status](https://travis-ci.org/rrudol/never-give-up.svg?branch=master)](https://travis-ci.org/rrudol/never-give-up)
 
 A module which force async functions to return value, by repeating them infinite number of times, ignoring undefined values and exceptions.
 
